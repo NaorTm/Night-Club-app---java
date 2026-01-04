@@ -1,5 +1,14 @@
-# Night-Club-app---java
+# Night Club Management App (Java)
 
-In this project I will demonstrate a management information system for a night club.
-The system is separated with classes, demonstrate work with OPP.
-for example there is Solider class, Student Class, and Person, and each one had their own class, and they all inherit this from Person.
+Swing-based desktop app for managing clubbers. Supports search and creation of different entity types (Person, Soldier, Student) with persistence to a local file.
+
+## Features
+- GUI with search/create flows
+- Entity inheritance (Person/Soldier/Student)
+- Local persistence using `BKCustomers.dat`
+
+## Build and Run
+```sh
+javac *.java
+java NightClubMgmtApp
+```
